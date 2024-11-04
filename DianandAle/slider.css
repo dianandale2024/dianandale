@@ -1,0 +1,54 @@
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),  /* Más oscuro */
+        rgba(0, 0, 0, 0.7)
+    ), 
+    url('images/found.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    animation: slider 20s infinite;
+    transition: background-image 1s ease-in-out;
+}
+
+/* Mantén la animación del carrusel */
+@keyframes slider {
+    0% {
+        opacity: 1;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ), url('images/found.jpg');
+    }
+    25% {
+        opacity: 1;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ), url('images/anillo\ diamante.jpg');
+    }
+    50% {
+        opacity: 1;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ), url('images/anillos.jpg');
+    }
+    75% {
+        opacity: 1;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ), url('images/joyasviejas.jpg');
+    }
+    100% {
+        opacity: 1;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ), url('images/elegante.jpg');
+    }
+}

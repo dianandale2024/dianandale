@@ -1,0 +1,97 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #e1e2e6; /* Color de fondo suave */
+    color: #333; /* Color del texto */
+  }  
+  
+  h2, h3 {
+    text-align: center;
+    font-family: 'Cursive', sans-serif; /* Fuente cursiva para títulos */
+  }
+  
+  section.about-us {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+    font-size: 22px; /* Tamaño del párrafo */
+    line-height: 1.8; /* Interlineado */
+    margin-bottom: 2.5em; /* Espacio entre párrafos */
+    text-align: justify; /* Justificar el texto */
+  }
+  
+  section.about-us p {
+    font-size: 1.2em;
+    text-align: justify; /* Párrafo justificado */
+    line-height: 1.6; /* Mejor lectura */
+    margin: 20px 0;
+    padding: 0 20px;
+    font-size: 22px; /* Tamaño del párrafo */
+    line-height: 1.8; /* Interlineado */
+    margin-bottom: 2.5em; /* Espacio entre párrafos */
+    text-align: justify; /* Justificar el texto */
+  }
+  
+  section.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    max-width: 1200px;
+    font-size: 22px; /* Tamaño del párrafo */
+    line-height: 1.8; /* Interlineado */
+    margin-bottom: 2.5em; /* Espacio entre párrafos */
+    text-align: justify; /* Justificar el texto */
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    font-size: 22px; /* Tamaño del párrafo */
+    line-height: 1.8; /* Interlineado */
+    margin-bottom: 2.5em; /* Espacio entre párrafos */
+    text-align: justify; /* Justificar el texto */
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+   
+
+  .card img {
+    width: 50%;
+    border-radius: 15px 15px 0 0;
+    display: block;
+    margin: auto;
+  }
+  
+  .card h3 {
+    margin: 15px 0;
+    font-size: 1.8em;
+    color: #a3786b; /* Color delicado para títulos */
+  }
+  
+  .card p {
+    font-size: 1.2em;
+    color: #666;
+    text-align: justify; /* Justificar párrafos */
+    line-height: 1.8; /* Mejorar el espacio entre líneas */
+    font-size: 22px; /* Tamaño del párrafo */
+    line-height: 1.8; /* Interlineado */
+    margin-bottom: 2.5em; /* Espacio entre párrafos */
+    text-align: justify; /* Justificar el texto */
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 90%;
+    }
+
+  
+  }
